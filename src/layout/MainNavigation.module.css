@@ -4,14 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
-  padding: 0 10%;
+  background-color: #509de6;
 }
 
 .logo {
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  margin-left: 3rem;
 }
 
 .header ul {
@@ -23,13 +23,13 @@
 }
 
 .header li {
-  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
+  color: #89d4ff;
 }
 
 .header a:hover,
@@ -39,9 +39,9 @@
 }
 
 .badge {
-  background-color: #cc2062;
+  /* background-color: #cc2062; */
   color: white;
   border-radius: 12px;
   padding: 0 1rem;
-  margin-left: 0.5rem;
+  margin-left: 12rem;
 }

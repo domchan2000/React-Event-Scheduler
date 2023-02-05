@@ -4,7 +4,9 @@ import classes from "./MainNavigation.module.css";
 function MainNav() {
   return (
     <header className={classes.header}>
-      <div div className={classes.logo}>Event</div>
+      <div div className={classes.logo}>
+        React-Event-Scheduler
+      </div>
       <nav>
         <ul>
           <li>
@@ -14,9 +16,7 @@ function MainNav() {
             <Link to="/new">Add New Event</Link>
           </li>
           <li>
-            <Link to="/past">
-              Past Events
-            </Link>
+            <Link to="/past">Past Events</Link>
           </li>
         </ul>
       </nav>
