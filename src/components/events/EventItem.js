@@ -1,5 +1,6 @@
 import classes from "./EventItem.module.css";
 import Card from "../UI/Card";
+import StartFireBase from "../firebaseconfig/config";
 
 function EventItems(props) {
   function deleteHandler(){
